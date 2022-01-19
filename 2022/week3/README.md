@@ -4,7 +4,7 @@ The data contains information about:
 2. The company that manufactured the bar
 3. The location of the company
 4. The review date
-5. The country of origin of the cacao beans
+5. The country of origin of the cocoa beans
 6. The specific bean origin or bar name
 7. The percentage cocoa in the bar
 8. The number and type of ingredients (B - beans, S - sugar, S* - sweetener, C - cocoa butter, V - vanilla, L - lecithin and Sa - salt)
