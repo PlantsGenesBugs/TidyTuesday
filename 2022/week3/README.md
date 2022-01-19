@@ -20,4 +20,7 @@ I considered several ways to probe the data...
 
 I decided to go for the first 2 questions above. Employing various levels of sophistication, I illustrated the number of suppliers both as a bar chart and as a heat map projected onto a world map. A quick look at the relationship between rating and % cocoa revealed that a high percentage cocoa is no guarantee of a good bar of chocolate!
 
-![A barchart showing country identity on the Y axis and count on the X axis. The count is the number of times that country was a supplier of cocoa beans for making chocolate bars. There are 5 countries that supply the bulk of beans, namely Venezuela, Peru, the Dominican Republic, Ecuador and Madagascar.](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week3/BarPlotCocoaSource.png)
+![A bar graph showing country identity on the Y axis and count on the X axis. The count is the number of times that country was a supplier of cocoa beans for making chocolate bars. There are 5 countries that supply the bulk of beans, namely Venezuela, Peru, the Dominican Republic, Ecuador and Madagascar.](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week3/BarPlotCocoaSource.png)
+Fig.1 Number of times a specific country supplied cocoa beans for chocolate bars worldwide.
+
+![A world map with colours indicating the relative number of times a country was a supplier of cocoa beans. The heat scale goes from yellow (small numbers) through orange to red (high numbers). The red colour is concentrated in countries in the north of South America and the island of Madagascar off the East coast of Africa.](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week3/WorldMapCocoaSource.png)
