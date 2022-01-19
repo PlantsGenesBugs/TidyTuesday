@@ -3,4 +3,4 @@ TidyTuesday is a weekly project from the R 4 DataScience community to encourage 
 
 One of the bits of advice I received as a new (and sporadic) user of R is to get involved in Tidy Tuesday. So here are my attempts. I realise the code will be less than polished and in a few years time I'll probably cringe when I look back, but practice really is the best way to learn, so here I go.
 
-Each week will have its own file in the respective annual folder (optimistic that this will become a multi-year endeavour!). The files might contain a bit more code and analysis than I share on Twitter, depending on how much time I have to spend smooshing the data around.
+Each week will have its own folder inside the respective annual folder (optimistic that this will become a multi-year endeavour!). The files might contain a bit more code and analysis than I share on Twitter, depending on how much time I have to spend smooshing the data around.
