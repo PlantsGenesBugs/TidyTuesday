@@ -19,3 +19,5 @@ I considered several ways to probe the data...
 - HOW can I use the information locked up in the memorable characteristics column?
 
 I decided to go for the first 2 questions above. Employing various levels of sophistication, I illustrated the number of suppliers both as a bar chart and as a heat map projected onto a world map. A quick look at the relationship between rating and % cocoa revealed that a high percentage cocoa is no guarantee of a good bar of chocolate!
+
+(/assets/images/CocoaVSRating.png)
