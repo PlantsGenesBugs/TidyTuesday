@@ -15,8 +15,7 @@ details <- tuesdata$details
 colnames(details)
 
 # According to the Data Dictionary [here](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-01-25/readme.md)
-# The primary name of the game is in the $primary column. Assuming normal spelling, I want to see
-# if Scrabble is included in this data base (personal interest).
+# The primary name of the game is in the $primary column. Assuming normal spelling, I want to see if Scrabble is included in this data base (personal interest).
 scrabble <- details %>%
   filter(primary=="Scrabble")
 
@@ -49,8 +48,7 @@ wordGameDF <- wordGame %>%
   summarise(n=n())
 
 # Plot data
-# Because word games are so scarce, and records start in the year -3500, limit the visualisation
-# to 1900-2022, and to make it easier to see, put on log scaled Y axis
+# Because word games are so scarce, and records start in the year -3500, limit the visualisation to 1900-2022, and to make it easier to see, put on log scaled Y axis
 ggplot(wordGameDF, aes(fill=boardgamecategory2, y=n, x=yearpublished)) + 
   geom_bar(position="stack", stat="identity") +
   xlim(1900, 2022) +
@@ -69,8 +67,7 @@ ggplot(wordGameDF, aes(fill=boardgamecategory2, y=n, x=yearpublished)) +
         axis.text = element_text(color = "white"),
         text= element_text(color = "white", family="American Typewriter Bold")
   )
-  #theme_bw()
-
+ 
 
 # There really isn't a lot of different word games - approximately 1000x more other games than word games!
 # But that can be expected as word games provide a fairly limited arena for play
