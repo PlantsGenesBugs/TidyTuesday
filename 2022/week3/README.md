@@ -1,3 +1,5 @@
+## Week 3
+
 This week the data was provided by flavorsofcacao.com where over [2500 chocolate bars have been rated](http://flavorsofcacao.com/chocolate_database.html). This was a recommendation by [Georgios and Kelsey](https://github.com/rfordatascience/tidytuesday/issues/408).
 The data contains information about:
 1. The bar's reference number (related to when it was rated)
