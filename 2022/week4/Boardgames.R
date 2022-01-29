@@ -48,7 +48,8 @@ wordGameDF <- wordGame %>%
   summarise(n=n())
 
 # Plot data
-# Because word games are so scarce, and records start in the year -3500, limit the visualisation to 1900-2022, and to make it easier to see, put on log scaled Y axis
+# Because word games are so scarce, and records start in the year -3500, limit the visualisation to 1900-2022, and to make it easier to see,
+# put on log scaled Y axis
 ggplot(wordGameDF, aes(fill=boardgamecategory2, y=n, x=yearpublished)) + 
   geom_bar(position="stack", stat="identity") +
   xlim(1900, 2022) +
