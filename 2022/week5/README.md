@@ -10,4 +10,7 @@ At the moment I'm studying Regression Models in the [Johns Hopkins University De
 
 So here is my output. An animated graph showing the change in popularity of different dog breeds from 2013 to 2020. The French Bulldog is by far the biggest winner, moving from a ranking of 11 in 2013 to a stellar 2 in 2020, only losing out to the ever popular Labrador Retriever.
 
-<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/2790_RC04/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/038wt3","geo":"US","time":"2013-01-01 2020-12-31"}],"category":0,"property":""}, {"exploreQuery":"date=2013-01-01%202020-12-31&geo=US&q=%2Fm%2F038wt3","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+![An animated line graph showing the change in popularity ranking for 5 different dog breeds between 2013 and 2020.](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week5/dogs.gif)
+
+I was curious to see if this trend in popularity was reflected in Google searches for the term "French Bulldog" in the USA over the corresponding time, and discovered this trend:
+![A screen shot showing a graph of the number of times the search term "French Bulldog" was searched for in Google, between 2013 and 2020. It shows a line with a slight positive slope](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week5/Bulldog%20USA%20Google%20trend.png)
