@@ -53,7 +53,7 @@ rank_and_trait <- left_join(df_top_5, trait_list, by="Y20rank") %>%
                names_to = "year",
                values_to = "yearRank") %>%
   mutate(year = parse_number(year),
-         image="paw.PNG") #remember to download image to github and change reference
+         image="https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week5/images/paw.png") 
 
 
 # Plot
