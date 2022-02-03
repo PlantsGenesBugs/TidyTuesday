@@ -93,5 +93,4 @@ anim_save("dogs.gif")
 
 # Not done:
 # 1. Using top traits in some way - table or boxes of text next to legend
-# 2. Using the rank and trait data in a model to see if you can predict popularity
-# based on trait rating.
+# 2. Using the rank and trait data in a model to see if you can predict popularity based on trait rating.
