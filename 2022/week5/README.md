@@ -14,5 +14,5 @@ So here is my output. An animated graph showing the change in popularity of diff
 
 I was curious to see if this trend in popularity was reflected in Google searches for the term "French Bulldog" in the USA over the corresponding time, and discovered this trend:
 
-![A screen shot showing a graph of the number of times the search term "French Bulldog" was searched for in Google, between 2013 and 2020. It shows a line with a slight positive slope.]("https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week5/Bulldog%20USA%20Google%20trend.png")
+![A screen shot showing a graph of the number of times the search term "French Bulldog" was searched for in Google, between 2013 and 2020. It shows a line with a slight positive slope.]("https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week5/Bulldog%20USA%20Google%20trend-small.png")
 
