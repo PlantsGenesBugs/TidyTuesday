@@ -11,5 +11,4 @@ I wanted to produce 2 graphs this week: one a reproduction of W.E.B. DuBois' won
 ![Scatter plot showing dates between July 1943 and April 1945 on the X-axis and number of total aerial victories on the Y-axis](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week6/TuskegeeAirmen1.png)
 
 
-![Table listing the names of pilots who were involved in the three top days for aerial victories]
-(https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week6/AirmenDetails.png)
+![Table listing the names of pilots who were involved in the three top days for aerial victories](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week6/AirmenDetails.png)
