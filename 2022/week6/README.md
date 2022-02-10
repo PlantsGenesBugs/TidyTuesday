@@ -12,3 +12,9 @@ I wanted to produce 2 graphs this week: one a reproduction of W.E.B. DuBois' won
 
 
 ![Table listing the names of pilots who were involved in the three top days for aerial victories](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week6/AirmenDetails.png)
+
+###Spiral Graph
+
+This graph was quite a struggle, but thanks to stumbling on the awesome code of [Charlie Gallagher](https://github.com/charlie-gallagher/tidy-tuesday/blob/master/dubois/dubois.R), I managed to complete it!
+
+![Radial graph, in the shape of spirals. The graph shows the number of graduates of different ranks in the Tuskegee Airmen crew. The smalles number is represented by Captains (2 individuals), with 1st lieutenants at 28, flight officers at 279 and 2nd lietuenants at 688. Each class of graduate has it's own colour. The length of the ribbon stretching around the spiral equals the number of individuals in the group.](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week6/TuskegeeAirmen2.png)
