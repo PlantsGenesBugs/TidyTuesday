@@ -1,5 +1,4 @@
-# Acknowledgement: With gratitude to Ijeamaka Anyene, Charlie Gallagher and Sonja Winter
-# for providing their code for reproducing graphs using this design
+# Acknowledgement: With gratitude to Charlie Gallagher for providing the code for reproducing graphs using this design
 
 # Load required packages
 library(ggplot2)
@@ -79,7 +78,7 @@ rank_spiral <- rank_spiral %>%
   mutate(y = y + (2.5-mockID)/4)
 
 
-# Labels for graph (Each value appears only once)
+# Labels for graph (Each value appears only once and using DuBois style of ALL CAPS
 ranktext <- arrange(rank_spiral, number) %>% 
   mutate(rank_at_graduation = case_when(rank_at_graduation == "Capt" ~ "CAPTAIN",
             rank_at_graduation == "1st Lt" ~ "1st LIEUTENANT",
