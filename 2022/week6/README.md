@@ -13,7 +13,7 @@ I wanted to produce 2 graphs this week: one a reproduction of W.E.B. DuBois' won
 
 ![Table listing the names of pilots who were involved in the three top days for aerial victories](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week6/AirmenDetails.png)
 
-###Spiral Graph
+### Spiral Graph
 
 This graph was quite a struggle, but thanks to stumbling on the awesome code of [Charlie Gallagher](https://github.com/charlie-gallagher/tidy-tuesday/blob/master/dubois/dubois.R), I managed to complete it!
 
