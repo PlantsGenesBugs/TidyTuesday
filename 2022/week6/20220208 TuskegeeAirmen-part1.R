@@ -93,7 +93,7 @@ plot <- ggplot(vicCount, aes(x=date, y=victories)) +
 
 plot
 
-# Find airmen responsible for top two days of aerial victory (10 and 12)
+# Find airmen responsible for top two days of aerial victory (9, 10 and 12)
 topPilots <- filter(tidyVicData,
                   date=="1944-01-27" | date=="1944-07-18" | date=="1945-03-31")
 
