@@ -1,6 +1,6 @@
 ## Week 7
 
-This week we continue the #DuBoisChallenge2022 theme! The challenge rolls out over 10 weeks, with the aim of recreating 10 iconic visualisations created by W.E.B. DuBois for the 1900 Parix Exposition. You can read more about it on the [#TidyTuesday github page](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-02-15/readme.md).
+This week we continue the #DuBoisChallenge2022 theme! The challenge rolls out over 10 weeks, with the aim of recreating 10 iconic visualisations created by W.E.B. DuBois for the 1900 Paris Exposition. You can read more about it on the [#TidyTuesday github page](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-02-15/readme.md).
 
 We were also given the option to BYOD (Bring Your Own Data), so I decided to do just that. I collected data from the Higher Education Statistics Agency (HESA) on the ethnicity of students enrolled at university/other higher ed for the past academic year. The data include students domiciled anywhere, in universities in any part of the UK, and at any level of study (undergrad or postgrad). HESA's own analysis of these numbers can be seen on the [source page](https://www.hesa.ac.uk/news/25-01-2022/sb262-higher-education-student-statistics/numbers).
 
