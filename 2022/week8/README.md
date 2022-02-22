@@ -1,6 +1,6 @@
 ## Week 8
 
-This week the data comes from [Freedom House](https://freedomhouse.org/reports/publication-archives). This NGO conducts research and advocacy on democracy, political freedom, and human rights. They gather data on 7 main topics for each country:
+This week the data comes from [Freedom House](https://freedomhouse.org/reports/publication-archives). This NGO conducts research and advocacy on democracy, political freedom, and human rights. They gather data on 7 main topics for each country, split between the main categories of Political Rights and Civil Liberties:
 
 *Political rights*
 - Electoral Process: executive and legislative elections, and electoral framework (3 questions) 
