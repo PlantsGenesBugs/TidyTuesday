@@ -17,4 +17,6 @@ Each country or territory is awarded a score of 0 to 4 points for each of the 25
 
 More information about the research methodology can be found [here](https://freedomhouse.org/reports/freedom-world/freedom-world-research-methodology). 
 
+The data set also includes information [gathered from the UN](https://unstats.un.org/unsd/methodology/m49/overview/), including country code and development status. For this analysis, countries considered a "least developed country" are score 1, otherwise they're scored 0. According to [Wikipedia](https://en.wikipedia.org/wiki/Least_developed_countries), "The least developed countries (LDCs) are a list of developing countries that, according to the United Nations, exhibit the lowest indicators of socioeconomic development, with the lowest Human Development Index ratings of all countries in the world."
+
 The #TidyData [Github page](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-02-22/readme.md) has more information about the challenge and links out to articles.
