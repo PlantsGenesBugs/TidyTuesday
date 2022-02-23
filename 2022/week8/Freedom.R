@@ -54,7 +54,7 @@ p <- ggplot(graphData, aes(x=year, y=aggregate, colour=country)) +
   ylab("Aggregate score: political rights\n& civil liberties") +
   scale_y_reverse(limits=c(15, 0)) +
   labs(title = "DEVELOPMENT STATUS DOES NOT ALWAYS\nREFLECT RIGHTS AND LIBERTIES",
-       subtitle = "\nOn a scale from 14 to 2 (worst to best), countries that are considered 'least developed'
+       subtitle = "\nOn a scale from 14 to 2 (worst to best), some countries that are considered 'least developed'
 (LDC) outscore countries that are considered 'developed' for political rights and civil liberties.\n",
        caption = "\nData: FreedomHouse | @PlantsGenesBugs | #TidyTuesday")
   
