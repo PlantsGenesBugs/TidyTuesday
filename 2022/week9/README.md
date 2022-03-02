@@ -2,7 +2,7 @@
 
 This week the data comes from the US [Department of Transporation](https://data-usdot.opendata.arcgis.com/datasets/usdot::alternative-fueling-stations/about) and contains information on Alternative Fueling Stations in the USA as of 3 January 2022.
 
-There are 67 attributes in the original data set, including address of alternative fuel station, opening hours, forms of payment, type of fuel etc. The data set used in #TidyTuesday also included an object ID and X and Y geospatial co-ordinates of the site for a total of 70 variables. A description of the variables is available [here](https://afdc.energy.gov/data_download/alt_fuel_stations_format).
+There are 67 attributes in the original data set, including address of alternative fuel station, opening hours, forms of payment, type of fuel etc. The data set used in [this week's #TidyTuesday](https://github.com/rfordatascience/tidytuesday/blob/master/data/2022/2022-03-01/readme.md) also included an object ID and X and Y geospatial co-ordinates of the site for a total of 70 variables. A description of the variables is available [here](https://afdc.energy.gov/data_download/alt_fuel_stations_format).
 
 I analysed the type and frequency of alternative fuel used by state in the USA - a fairly simple analysis (see the R code file in this repository) which revealed interesting trends. 
 
