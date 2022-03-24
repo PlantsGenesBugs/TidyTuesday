@@ -36,9 +36,16 @@ palette <- c("#37505C",
              "#C36FA7",
              "#E952DE")
 
+# Vertical line positions for year of movie release
+vlineDat <- data.frame(name=c("Ariel", "Aurora", "Belle", "Cinderella", 
+                           "Jasmine", "Merida", "Moana", "Mulan", "Pocahontas", "Rapunzel", "Tiana"),
+                       vl=c(1989, 1959, 1991, 1950, 1992, 2012, 2016, 1998, 1995, 2010, 2009))
+
+
 # Draw plot
 p <- ggplot(princessData, aes(x=year, y=n)) +
   geom_point(aes(colour=name)) +
+  geom_vline(aes(xintercept=vl), data=vlineDat, linetype="longdash", colour="#A30481") +
   facet_wrap(~name, scales="free") +
   labs(
     title="Disney Princesses in the USA",
@@ -51,12 +58,12 @@ Disney Princess name over the years. Each graph indicates the movie featuring th
 
 # Define text to use in graph annotations as well as position (this is adjusted through iteration)
 graphText <- data.frame(
-  label=c("The Little Mermaid\n(1989)", "Sleeping Beauty (1959)", 
-          "Beauty and the Beast\n(1991)", "Cinderella (1950)", "Aladdin (1992)", "Brave (2012)",
-          "Moana (2016)", "Mulan (1998)", "Pocahontas (1995)", "Tangled (2010)", "The Princess and\nthe Frog (2009)"),
+  label=c("The Little Mermaid\n(1989)", "Sleeping Beauty\n(1959)", 
+          "Beauty and the Beast\n(1991)", "Cinderella\n(1950)", "Aladdin (1992)", "Brave (2012)",
+          "Moana (2016)", "Mulan (1998)", "Pocahontas\n(1995)", "Tangled (2010)", "The Princess and\nthe Frog (2009)"),
   name = c("Ariel", "Aurora", "Belle", "Cinderella", "Jasmine", "Merida", "Moana", "Mulan", "Pocahontas", "Rapunzel", "Tiana"),
-  x = c(1935, 1938, 1960, 1977, 1935, 1940, 1960, 2003, 1975, 1999, 1970),
-  y = c(5150, 43000, 390, 25, 12500, 120, 140, 35, 12, 9, 970)
+  x = c(1930, 1915, 1930, 1915, 1935, 1937, 1960, 2003, 1920, 1980, 1970),
+  y = c(5050, 4300, 380, 24, 12500, 120, 140, 35, 11.5, 8.95, 970)
 )
 
 # Customise plot elements and annotate
