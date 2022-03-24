@@ -10,7 +10,7 @@ Somewhere in my exploratory analyses I spotted the name Merida. In my world, Mer
 
 So I asked the question:
 
-How does the release of a Disney Princess film affect the names of babies born in that year (and subsequent years)? Below, the answer looking at the 12 canonical Disney Princesses, namely Snow White, Cinderella, Aurora, Ariel, Belle, Jasmine, Pocahontas, Mulan, Tiana, Rapunzel, Merida, and Moana.
+**How does the release of a Disney Princess film affect the names of babies born in that year (and subsequent years)?** Below, the answer looking at the 12 canonical Disney Princesses, namely Snow White, Cinderella, Aurora, Ariel, Belle, Jasmine, Pocahontas, Mulan, Tiana, Rapunzel, Merida, and Moana.
 
 Some movies seem to have influenced baby names more directly (Ariel, Jasmine, Moana and Merida all increase around the year of release of their related films). However, other names never made the transfer from big screen to real life (Aurora, Pocahontas, Rapunzel). For some of these there are clear cultural reasons why. Other names, like Belle, Cinderella and Tiana were already in circulation before a Disney Princess movie was released. Tiana surged a bit around 2009, whilst Belle is a name that is still steadily increasing - almost certainly due to other factors. The name Mulan seems to be on the increase - Disney released a live action film "Mulan" in 2020, so it's possible people were inspired in the run-up to the release.
 
