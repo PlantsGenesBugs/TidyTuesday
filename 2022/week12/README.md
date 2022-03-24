@@ -14,7 +14,7 @@ So I asked the question:
 
 Some movies seem to have influenced baby names more directly (Ariel, Jasmine, Moana and Merida all increase around the year of release of their related films). However, other names never made the transfer from big screen to real life (Aurora, Pocahontas, Rapunzel). For some of these there are clear cultural reasons why. Other names, like Belle, Cinderella and Tiana were already in circulation before a Disney Princess movie was released. Tiana surged a bit around 2009, whilst Belle is a name that is still steadily increasing - almost certainly due to other factors. The name Mulan seems to be on the increase - Disney released a live action film "Mulan" in 2020, so it's possible people were inspired in the run-up to the release.
 
-I'll finish with a shout-out to the Rapunzels out there. You are rare beings: there were 5 of you in 1959, and 6 in 2017 (the last year in the data set), and none in-between.
+I'll finish with a shout-out to the Rapunzels out there. You are rare beings: there were 9 of you in 1959, and 6 in 2017 (the last year in the data set), and none in-between.
 
 EDIT: after [some feedback](https://twitter.com/richard_vogg/status/1507071674625187844?s=20&t=eaZqL7R058HlnBA28gS5xA), I decided to go back and add vertical lines to each plot, indicating the year of release of the named movie. It really clarified the patterns, and also gave me an opportunity to correct an error that slipped in with my "Aurora" graph, as well as standardise the annotations across all graphs (top left). In the interest of transparency, I've left the original graph in the repository (babynames.png). The graph below is babynames2.png.
 
