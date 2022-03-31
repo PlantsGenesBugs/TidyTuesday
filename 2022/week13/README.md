@@ -23,3 +23,4 @@ Other interesting high spenders include:
 - Pennsylvania: Fencing
 - Puerto Rico: Table tennis
            
+It would be interesting to see if high spenders also have great success in that specific sport. A very quick Google confirms my suspicions as (e.g.) the Ohio Buckeyes [won the national synchronized swimming championship](https://eu.dispatch.com/story/sports/2022/03/27/synchronized-swimming-ohio-state-wins-33rd-national-championship/7186445001/) for the 33rd time. In addition, Texas Christian University's Beach Volleyball team [remains undefeated this year](https://gofrogs.com/sports/womens-beach-volleyball/schedule/2022).
