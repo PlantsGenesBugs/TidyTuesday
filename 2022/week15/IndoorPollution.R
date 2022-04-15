@@ -55,7 +55,7 @@ df <- df %>%
 
 # Focus on countries in Africa and the Indian Ocean
 # AFRINIC country codes from here: https://www.nro.net/list-of-country-codes-in-the-afrinic-region/
-# Import csv sheet with country codes to use as filter from main DB
+# Import csv sheet with country codes to use as filter from main DB (this file is available separately in this repository)
 
 Africa <- read_excel("country_code_web.xls", sheet="Africa",
                      col_names=c("Country", "Two_code", "Three_code", "Region"),skip=1)
