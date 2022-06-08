@@ -10,4 +10,4 @@ My first overview of the data revealed that of the different sectors of industry
 
 The obvious next question is: which companies are included in the poll and how have their rankings changed over time? The nature of the first step of the poll would suggest that the companies in each sector will rank either very high or very low. But will companies manage to change rank? Or disappear entirely off the poll? I'll answer that in a follow-up post next week.
 
-
+![A packed circle graph, where each circle represents a sector of industry and the size of the circle represents the number of businesses included in the Axios Harris poll for that industry. The largest circle is represented by the Retail industry, followed by Tech, Food & Beverage and Financial services. The smallest circle is Insurance.](https://github.com/PlantsGenesBugs/TidyTuesday/blob/main/2022/week22/CompanyReputationA.png)
