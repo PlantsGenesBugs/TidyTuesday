@@ -16,12 +16,15 @@ showtext_auto()
 
 # Get the Data
 poll <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-05-31/poll.csv')
-#reputation <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-05-31/reputation.csv')
 
-# The original data underwent some substantial cleaning and the code for it is actually a 
-# good exercise in studying R (see github: https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-05-31)
-# The cleaning script has some impressive regex patterns used in gsub() and also gives
-# examples of using json files as sources; it also features the somewhat new base R pipe |>
+# The original data underwent some substantial cleaning and the code for it is actually a good exercise in studying R
+# (see github: https://github.com/rfordatascience/tidytuesday/tree/master/data/2022/2022-05-31)
+# The cleaning script has some impressive regex patterns used in gsub() and also gives examples of using json files as sources;
+# it also features the somewhat new base R pipe |>
+
+
+# Investigation reveals that trends for visibility has remained static over the past 5 years in terms of numbers of companies per industrial sector
+# So we can use the frequency of companies in the poll for 2022 as a general indication of visibility across industries
 
 # Extract 2022 rank data and reorganise to match original data frame format
 Y2022 <- poll %>%
@@ -31,12 +34,7 @@ Y2022 <- poll %>%
 Y2022$year <- 2022
 Y2022 <- unique(Y2022)
 
-
-
-# Investigation reveals that trends for visibility has remained static over the past 5 years in terms of numbers of companies per industrial sector
-# So we can use the frequency of companies in the poll for 2022 as a general indication of visibility across industries
 # Illustrate as packed circles
-
 Y2022count <- Y2022 %>%
   count(industry)
 
@@ -52,6 +50,7 @@ dat.gg <- circleLayoutVertices(packing, npoints=50)
 # Repeat each value 51 times because polygon is made with 50 lines
 dat.gg$value <- rep(Y2022count$circsize, each=51)
 
+# Draw circle packed plot
 p <- ggplot() +
   geom_polygon(data=dat.gg, aes(x, y, group=id, fill=value), colour="black", alpha=0.6)+
   geom_text(data=Y2022count, aes(x, y, size=n, label=industry), family = "oswald")+
@@ -71,7 +70,6 @@ p <- ggplot() +
   coord_equal()
 
 # Add description of graph
-
 textCirc <- c("The size of the circle represents the number of companies in that industry that are included in the poll.")
 textCirc <- str_wrap(textCirc,30)
 
@@ -95,7 +93,6 @@ p_background <- ggplot(data=mock, aes(x=x, y=y)) +
   ylim(-0.7,5) +
   xlim(0,5)
 
-
 # Prepare to save plot
 png('my_plot4.png', res=300, width=18, height=18, units="cm")
 
@@ -110,23 +107,6 @@ print(p,vp = viewport(width = 1.6,
                     height = 1))
 dev.off()
 
-
-
-
-# Merge rank data for all years
-AllRank <- poll %>%
-  select(c(1, 2, 6, 7)) %>%
-  rbind(Y2022)
-
-
-# Investigate rank over time
-p2 <- ggplot(AllRank, aes(x=year, y=rank, colour=company)) +
-  geom_point()+
-  geom_line()+
-  scale_y_reverse()+
-  facet_wrap(~industry)
-
-# Create an interactive plot to easily identify companies with curious patterns
 ggplotly(p2)
 
 
