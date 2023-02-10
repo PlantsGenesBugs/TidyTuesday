@@ -30,7 +30,7 @@ ggplot(data, aes(x=price_change, y=volume, colour=year)) +
   labs(
     title = "Volume of shares traded compared to the change in price for that day (2010-2023)",
     subtitle = "The smaller the price change, the higher the volume of shares traded on that day. Some stocks have remarkably stable prices (Apple)
-while others vary widely (Tesla, NVIDIA, Netflix, Adobe. Much smaller volumes of shares seem to be traded in 2023 compared to
+while others vary widely (Tesla, NVIDIA, Netflix, Adobe). Much smaller volumes of shares seem to be traded in 2023 compared to
 the first entries in 2010.",
     caption = "Data: Yahoo Finance via Kaggle  |  #TidyTuesday  | Graph: @PlantsGenesBugs"
   )  +
